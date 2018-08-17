@@ -3,3 +3,4 @@ img/*
 *debug*
 *pycache*
 .vscode/*
+output/*
