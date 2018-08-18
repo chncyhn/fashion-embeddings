@@ -4,3 +4,4 @@ img/*
 *pycache*
 .vscode/*
 output/*
+*ann
