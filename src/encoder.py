@@ -1,12 +1,13 @@
+import pickle
+import os
+
+from tqdm import tqdm
 from keras.applications import VGG16
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
 from keras.applications.vgg16 import preprocess_input
-from tqdm import tqdm
-import pickle
-import os
 
-from utility import list_files
+from src.utility import list_files
 
 
 class Encoder:
