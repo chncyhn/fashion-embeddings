@@ -42,7 +42,8 @@ class Encoder:
 
             if i % 1000 == 0:
                 print(f"Dumping embed{cnt}.pickle")
-                with open(os.path.join(output_path, f"embed{cnt}.pickle"), "wb") as handle:
+                with open(os.path.join(output_path, 
+                                       f"embed{cnt}.pickle"), "wb") as handle:
                     pickle.dump(file_to_embedding, 
                                 handle, 
                                 protocol=pickle.HIGHEST_PROTOCOL)
